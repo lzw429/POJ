@@ -43,7 +43,6 @@ int main() {
     while (scanf("%d", &n) != EOF) {
         if (n == -1)
             return 0;
-
         ans = pow(Fib, n);
         printf("%d\n", ans[0][1]);
     }
